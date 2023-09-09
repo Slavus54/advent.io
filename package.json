@@ -3,25 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "apollo-boost": "^0.4.9",
+    "axios": "^1.5.0",
+    "graphql": "^15.8.0",
+    "graphql-tag": "^2.12.6",
+    "js-cookie": "^3.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-map-gl": "^5.3.21",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "shortid": "^2.2.16",
+    "web-vitals": "^2.1.4",
+    "wouter": "^2.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
